@@ -38,7 +38,7 @@ public class Save { // переводит коллекцию в строку в 
                     list1.remove((list1.last()));
                 }
             }
-            System.out.println(collection.Pritnter.ANSI_GREEN + "Коллекция успешно сохранена в файл." + collection.Pritnter.ANSI_RESET);
+            System.out.println(Printer.ANSI_GREEN + "Коллекция успешно сохранена в файл." + Printer.ANSI_RESET);
         } catch (FileNotFoundException e) {
             System.out.println("Ошибка! Некорректно указан путь файла или файл отсутсвует!");
             e.printStackTrace();

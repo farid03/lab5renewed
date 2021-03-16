@@ -1,5 +1,7 @@
 package commands;
 
+import collection.Printer;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.nio.file.Files;
@@ -66,7 +68,7 @@ public class ExecuteScript {
                 }
             }
         } catch (StackOverflowError e) {
-            System.out.println(collection.Pritnter.ANSI_RED + "ОГО! Превышена глубина рекурсии." + collection.Pritnter.ANSI_RESET);
+            System.out.println(Printer.ANSI_RED + "ОГО! Превышена глубина рекурсии." + Printer.ANSI_RESET);
         } catch (NoSuchElementException e1) {
             System.out.println("Файл пустой!");
         }

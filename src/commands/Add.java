@@ -307,7 +307,7 @@ public class Add {
 
             lisst.add(new HumanBeing(list));
             Initialization.idCounter.add(toSaveId);
-            System.out.println(collection.Pritnter.ANSI_GREEN + "Объект успешно добавлен в коллекцию!" + collection.Pritnter.ANSI_RESET);
+            System.out.println(Printer.ANSI_GREEN + "Объект успешно добавлен в коллекцию!" + Printer.ANSI_RESET);
         } catch (NoSuchElementException e) {
             System.out.println("Ввод команд завершен!");
             return;
